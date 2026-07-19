@@ -1503,7 +1503,8 @@ footer{
 }
 
 .hero-image{
-    transform: translateY(-50px);
+    transform: translateY(-80px);
+    transform: translateX(-20px);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1537,9 +1538,9 @@ footer{
 
     .image-circle{
 
-    width:250px;
+    width:270px;
 
-    height:250px;
+    height:270px;
 
     border-radius:50%;
 
