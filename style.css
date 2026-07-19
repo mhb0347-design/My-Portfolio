@@ -1,3 +1,4 @@
+
 :root{
     --bg-color: #081b29;
     --second-bg-color: #112e42;
@@ -1486,7 +1487,26 @@ footer{
 
         gap:15px;
 
+
     }
+
+    .hero{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.hero-content{
+    width: 100%;
+}
+
+.hero-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
     .hero-content h1{
 
@@ -1508,21 +1528,22 @@ footer{
 
     .image-wrapper{
 
-        width:300px;
+        width:260px;
 
-        height:300px;
+        height:260px;
 
     }
 
     .image-circle{
 
-    width:350px;
+    width:250px;
 
-    height:350px;
+    height:250px;
 
     border-radius:50%;
 
     overflow:hidden;
+    margin: 0 auto;
 
     border:5px solid #38BDF8;
 
